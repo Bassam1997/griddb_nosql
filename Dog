@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+  
+  int dog_age = 4; // Hunds år
+  int early_years;
+  int later_years;
+  int human_years;
+  
+  early_years = 21; // hundens första två år
+  later_years = (dog_age - 2)*4; //nästkommande hundåren ökas me 4
+  
+  human_years = early_years + later_years;
+  // Människans år = ovan
+ 
+  
+  std::cout << "Mitt namn är Bassam " << "ruff ruff, I am: " << human_years << "years old in human years.\n";
+
+  
+}
