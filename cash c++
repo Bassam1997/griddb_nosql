@@ -1,0 +1,30 @@
+#include <iostream>
+
+int main() {
+  
+  double pesos;
+  double reais;
+  double soles;
+  
+  double dollars;
+  std::cout << "Enter number of Colombian Pesos: ";
+  std::cin >> pesos;
+  
+  std::cout << "Enter number of reais: ";
+  std::cin >> reais;
+  
+  std::cout << "Enter number of soles: ";
+  std::cin >> soles;
+  
+  // pesos to USD 1 Mexican peso =
+//0.050246
+  
+ //1 Brazil real = 0.240865
+  
+//1 PEN = 0.29927 
+  
+  dollars = 0.050246*pesos+0.240865*reais+0.29927*soles;
+  
+  std::cout << "US dollars = $ " << dollars << "\n";
+  
+}
